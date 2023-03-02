@@ -13,7 +13,7 @@ void Thap(int n , char a, char b, char c ){
 int main(){
 	char a='A', b='B', c='C';
 	int n;
-	cout<<"Nhap n: ";
-	cin>>n;
+	cout <<"Nhap n: ";
+	cin >>n;
 	Thap(n,a,b,c);
 }
