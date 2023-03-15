@@ -1,8 +1,4 @@
-// InterchangeSort.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
-// for swap
 using namespace std;
 
 void nhap_mang(int arr[], int n) {
