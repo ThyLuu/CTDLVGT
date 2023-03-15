@@ -3,12 +3,12 @@ using namespace std;
 
 void nhap_mang(int arr[], int n) {
     for (int i = 0; i < n; i++) {
-        cout << "nhap a[" << i << "]: ";
+        cout << "Nhap a[" << i << "]: ";
         cin >> arr[i];
     }
 }
 void xuat_mang(int arr[], int n) {
-    cout << "mang gom co: ";
+    cout << "Mang sau khi sap xep: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << "  ";
     }
@@ -25,7 +25,7 @@ int main() {
     cout << "nhap so phan tu cua mang: ";
     cin >> n;
     if (n < 0) {
-        cout<<"xin nhap lai (N>0)";
+        cout<<"Hay nhap lai (n>0)!";
         return 0;
     }
     else {
