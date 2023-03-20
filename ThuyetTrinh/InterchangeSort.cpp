@@ -7,7 +7,7 @@ void nhap_mang(int arr[], int n) {
         cin >> arr[i];
     }
 }
-void xuat_mang(int arr[], int n) {
+int xuat_mang(int arr[], int n) {
     cout << "Mang sau khi sap xep: ";
     for (int i = 0; i < n; i++) {
         cout << arr[i] << "  ";
