@@ -1,8 +1,11 @@
 #include <iostream>
 using namespace std;
-//Tính T(n) = 1 x 2 x 3 x … x n
+//TÃ­nh T(n) = 1 x 2 x 3 x â€¦ x n
 int giaiThua(int a[], int n){
 	if(n == 0){
+		return 0;
+	}
+	if(n == 1){
 		return 1;
 	}
 	if(n > 0){
